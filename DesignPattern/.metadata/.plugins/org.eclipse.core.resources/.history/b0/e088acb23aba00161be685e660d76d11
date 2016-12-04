@@ -1,0 +1,12 @@
+package com.lee.strategy;
+
+import java.util.HashMap;
+
+public class StrategyContext {
+	private static  Map<String,String> supportCal = new Map<String,String>();
+	static
+	{
+		supportCal.put("plus","+");
+		supportCal.put("minus", "-");
+	}
+}

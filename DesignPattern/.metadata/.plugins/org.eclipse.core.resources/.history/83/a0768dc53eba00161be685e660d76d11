@@ -1,0 +1,5 @@
+package com.lee.classadapter;
+
+public interface NewCellPhone {
+	public void call();
+}

@@ -1,0 +1,18 @@
+package com.lee.strategy;
+
+public class PlusStrategy implements ICalculate {
+
+	public boolean isSupport(String calc) {
+		if ("+".endsWith(calc))
+		{
+			
+		}
+		return false;
+	}
+
+	public int executeCal(int rNum, int lNum) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

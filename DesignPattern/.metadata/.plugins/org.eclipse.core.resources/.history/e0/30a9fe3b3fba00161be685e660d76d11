@@ -1,0 +1,13 @@
+package com.lee.classadapter;
+
+public class MyCellPhone {
+	public void call()
+	{
+		System.out.println("MyCellPhone call!");
+	}
+	
+	public void call()
+	{
+		System.out.println("MyCellPhone call!");
+	}
+}

@@ -1,0 +1,10 @@
+package com.lee.classadapter;
+
+public class CellPhoneTransformer extends MyCellPhone implements
+		ILatestCellPhone {
+
+	public void internet() {
+		// TODO Auto-generated method stub
+
+	}
+}

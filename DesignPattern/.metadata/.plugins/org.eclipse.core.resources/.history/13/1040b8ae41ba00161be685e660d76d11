@@ -1,0 +1,22 @@
+package com.lee.objectadapter;
+
+import com.lee.classadapter.ILatestCellPhone;
+
+public class CellPhoneTransformer implements ILatestCellPhone {
+
+	public void call() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void text() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void internet() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

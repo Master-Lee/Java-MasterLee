@@ -1,0 +1,7 @@
+package com.lee.inherit.proxy;
+
+import com.lee.aggregation.proxy.Roomer;
+
+public class RoomMediation2 extends Roomer {
+	public void findHouse();
+}

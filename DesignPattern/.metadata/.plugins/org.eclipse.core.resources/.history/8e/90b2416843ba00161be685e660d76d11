@@ -1,0 +1,13 @@
+package com.lee.inherit.proxy;
+
+public class ProxyTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

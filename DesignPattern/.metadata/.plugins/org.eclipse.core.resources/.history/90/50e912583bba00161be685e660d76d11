@@ -1,0 +1,30 @@
+package com.lee.strategy;
+
+public class MinuStrategy implements ICalculate {
+
+	public String calc;
+	
+	public MinuStrategy(String calc)
+	{
+		this.calc = calc;
+	}
+	
+	public boolean isSupport(String calc) {
+		if ("-".equals(calc))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public int executeCal(int rNum, int lNum) {
+		
+		if (!isSupport(calc))
+		{
+			
+		}
+		
+		return rNum - lNum;
+	}
+
+}

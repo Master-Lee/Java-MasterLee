@@ -1,0 +1,15 @@
+package com.lee.strategy;
+
+public class MinuStrategy implements ICalculate {
+
+	public int executeCal(int rNum, int lNum) {
+		
+		if (!isSupport(calc))
+		{
+			System.out.println("Wrong use!");
+		}
+		
+		return rNum - lNum;
+	}
+
+}

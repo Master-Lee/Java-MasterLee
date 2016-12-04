@@ -1,0 +1,5 @@
+package com.lee.strategy;
+
+public class StrategyContext {
+	private static Map<String,String> supportCal = new HashMap<String,String>();
+}

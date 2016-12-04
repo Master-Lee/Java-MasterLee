@@ -1,0 +1,8 @@
+package com.lee.strategy;
+
+public class StrategyContext {
+	public chooseCal(String cal)
+	{
+		
+	}
+}

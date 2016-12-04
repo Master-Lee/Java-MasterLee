@@ -1,0 +1,16 @@
+package com.lee.classadapter;
+
+public class AdapterTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyCellPhone myPhone = new MyCellPhone();
+		myPhone.call();
+		myPhone.text();
+		
+	}
+
+}

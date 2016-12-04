@@ -1,0 +1,27 @@
+package com.lee.singleton;
+
+public class Singleton {
+	private static Singleton instance = null;
+	
+	private Singleton()
+	{
+		
+	}
+	
+	public static synchronized Singleton getInstance()
+	{
+		if (null != instance)
+		{
+			return instance;
+		}
+		else
+		{
+			return new Singleton();
+		}
+	}
+	
+	private void privateMethod()
+	{
+		
+	}
+}

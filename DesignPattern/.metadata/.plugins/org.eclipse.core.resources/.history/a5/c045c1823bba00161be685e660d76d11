@@ -1,0 +1,24 @@
+package com.lee.strategy;
+
+public class PlusStrategy implements ICalculate {
+
+	public String calc;
+	
+	public PlusStrategy(String calc)
+	{
+		this.calc = calc;
+	}
+	
+	public boolean isSupport(String calc) {
+		if ("+".endsWith(calc))
+		{
+			return true;
+		}
+		return false;
+	}
+
+	public int executeCal(int rNum, int lNum) {
+		return rNum + lNum;
+	}
+
+}

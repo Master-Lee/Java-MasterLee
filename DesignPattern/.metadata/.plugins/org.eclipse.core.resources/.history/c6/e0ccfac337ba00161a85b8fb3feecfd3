@@ -1,0 +1,18 @@
+package com.lee.strategy;
+
+public class MinuStrategy implements ICalculate {
+
+	public boolean isSupport(String calc) {
+		if ("-".equals(calc))
+		{
+			
+		}
+		return false;
+	}
+
+	public int executeCal(int rNum, int lNum) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
