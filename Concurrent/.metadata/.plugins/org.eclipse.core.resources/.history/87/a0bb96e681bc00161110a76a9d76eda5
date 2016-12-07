@@ -1,0 +1,22 @@
+package com.time.task.everydaytask;
+
+import java.util.TimerTask;
+
+public class EveryDayTask {
+	
+	static int count = 0;
+	
+	public static void showTimer(){
+		TimerTask task = new TimerTask(){
+			
+		};
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

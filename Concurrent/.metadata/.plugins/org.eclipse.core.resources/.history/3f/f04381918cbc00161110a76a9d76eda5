@@ -1,0 +1,16 @@
+package com.threadpool.test;
+
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+
+public class ScheduledExecutor {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ScheduledExecutorService scheduledThreadPool
+			= Executors.newScheduledThreadPool(5);
+	}
+
+}

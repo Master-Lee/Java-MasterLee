@@ -1,0 +1,25 @@
+package com.lee.xian;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ThreadFactory;
+
+public class MyThread implements Runnable {
+	ThreadFactory threadFactory = new ThreadFactory(){
+
+		@Override
+		public Thread newThread(Runnable arg0) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
+	};
+	
+	ExecutorService ctp = Executors.newCachedThreadPool();
+	
+	@Override
+	public void run() {
+		
+	}
+
+}

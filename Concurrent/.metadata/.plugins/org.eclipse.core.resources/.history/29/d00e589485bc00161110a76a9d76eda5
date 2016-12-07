@@ -1,0 +1,6 @@
+package com.lee.xian;
+
+public class WorkThread extends Thread {
+	private Runnable targe;
+	private AtomicInteger counter;
+}

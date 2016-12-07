@@ -1,0 +1,16 @@
+package com.time.task.timer;
+import java.util.Timer;
+import java.util.TimerTask;
+
+public class TimerTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		TimerTask task = new TimerTask(){
+			
+		};
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.time.task.sleep;
+
+public class SleepTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

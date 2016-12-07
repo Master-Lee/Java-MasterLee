@@ -1,0 +1,13 @@
+package com.lee.xian;
+
+import java.util.concurrent.atomic.AtomicInteger;
+
+public class WorkThread extends Thread {
+	private Runnable targe;
+	private AtomicInteger counter;
+	
+	public WorkThread(Runnable target, AtomicInteger counter)
+	{
+		this.target = target;
+	}
+}

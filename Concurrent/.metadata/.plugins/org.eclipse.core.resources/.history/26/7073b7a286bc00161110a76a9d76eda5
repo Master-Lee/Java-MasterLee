@@ -1,0 +1,10 @@
+package com.lee.xian;
+
+public class MyThread implements Runnable {
+
+	@Override
+	public void run() {
+		
+	}
+
+}

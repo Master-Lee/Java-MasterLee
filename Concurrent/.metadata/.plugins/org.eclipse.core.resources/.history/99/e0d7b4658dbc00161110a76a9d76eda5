@@ -1,0 +1,12 @@
+package com.date.test;
+
+public class GetTime {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

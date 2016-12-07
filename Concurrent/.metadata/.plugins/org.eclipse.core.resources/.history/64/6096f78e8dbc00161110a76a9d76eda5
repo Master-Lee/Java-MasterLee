@@ -1,0 +1,20 @@
+package com.date.test;
+
+import java.util.Date;
+
+public class GetTime {
+
+	//获取时间戳
+	public void getTimeStamp(){
+		Date date = new Date();
+		long times = date.getTime();
+		System.out.println(times);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

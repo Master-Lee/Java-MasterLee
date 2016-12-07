@@ -1,0 +1,12 @@
+package com.time.task.scheduledesxecutorservice;
+
+public class ScheduledExecutorServiceTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

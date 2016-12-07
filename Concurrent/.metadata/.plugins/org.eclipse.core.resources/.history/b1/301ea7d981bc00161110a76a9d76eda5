@@ -1,0 +1,18 @@
+package com.time.task.everydaytask;
+
+public class EveryDayTask {
+	
+	static int count = 0;
+	
+	public static void showTimer(){
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

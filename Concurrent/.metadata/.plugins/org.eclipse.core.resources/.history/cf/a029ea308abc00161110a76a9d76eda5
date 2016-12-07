@@ -1,0 +1,12 @@
+package com.threadpool.test;
+
+public class FixedThreadPool {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

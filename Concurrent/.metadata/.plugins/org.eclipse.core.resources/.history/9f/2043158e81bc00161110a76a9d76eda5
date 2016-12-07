@@ -1,0 +1,13 @@
+package com.time.task.everydaytask;
+
+public class EveryDayTask {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.threadpool.test;
+
+import java.util.concurrent.Executors;
+
+public class CachedThreadPool {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ExecutorService cachedThreadPool = Executors.newCachedThreadPool();
+	}
+
+}

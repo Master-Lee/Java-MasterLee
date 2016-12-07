@@ -1,0 +1,28 @@
+package com.time.task.everydaytask;
+
+import java.sql.Date;
+import java.util.TimerTask;
+
+public class EveryDayTask {
+	
+	static int count = 0;
+	
+	public static void showTimer(){
+		TimerTask task = new TimerTask(){
+
+			public void run() {
+				++count;
+				System.out.println("时间=" + new Date(System.currentTimeMillis()) + "执行了" + count + "次");
+			}
+			
+		};
+	}
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.lee.xian;
+
+public class MyThread implements Runnable {
+	ExecutorService ctp = Executors.newCachedThreadPool();
+	
+	@Override
+	public void run() {
+		
+	}
+
+}

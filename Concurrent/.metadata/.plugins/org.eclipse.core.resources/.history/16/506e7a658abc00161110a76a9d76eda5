@@ -1,0 +1,20 @@
+package com.threadpool.test;
+
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class FixedThreadPool {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
+		for (int index = 0; index < 10; index++){
+			fixedThreadPool.execute(new Runnable(){
+				
+			});
+		}
+	}
+
+}

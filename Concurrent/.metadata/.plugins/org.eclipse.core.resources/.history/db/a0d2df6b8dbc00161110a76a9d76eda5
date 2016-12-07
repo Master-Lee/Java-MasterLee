@@ -1,0 +1,15 @@
+package com.date.test;
+
+public class GetTime {
+
+	public void getTimeStamp(){
+		
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+	}
+
+}
