@@ -15,6 +15,6 @@ public class SunglassesDecorator extends ModelDecorator {
 	
 	public void showSunglasses()
 	{
-		System.out.println("ÐãÄ«¾µ");
+		System.out.println("ç§€å¢¨é•œ");
 	}
 }

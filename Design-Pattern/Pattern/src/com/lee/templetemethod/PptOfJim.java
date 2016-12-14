@@ -5,13 +5,13 @@ public class PptOfJim extends PptTemplate {
 	@Override
 	public void showTheme() {
 		// TODO Auto-generated method stub
-		System.out.println("ÎÒµÄÖ÷ÌâÊÇ±ÏÒµ´ğ±ç");
+		System.out.println("æˆ‘çš„ä¸»é¢˜æ˜¯æ¯•ä¸šç­”è¾©");
 	}
 
 	@Override
 	public void showAuthorName() {
 		// TODO Auto-generated method stub
-		System.out.println("ÎÒµÄÃû×Ö½Ğ¼ªÄ·");
+		System.out.println("æˆ‘çš„åå­—å«å‰å§†");
 	}
 
 }

@@ -1,16 +1,16 @@
 package com.lee.aggregation.proxy;
 
-//·¿¿Í
+//æˆ¿å®¢
 public class Roomer implements IRentHouse {
 
 	public void findHouse() {
 		// TODO Auto-generated method stub
-		System.out.println("ÕÒ·¿×Ó");
+		System.out.println("æ‰¾æˆ¿å­");
 	}
 
 	public void callHouseOwner() {
 		// TODO Auto-generated method stub
-		System.out.println("ÁªÏµ·¿¶«");
+		System.out.println("è”ç³»æˆ¿ä¸œ");
 	}
 
 }

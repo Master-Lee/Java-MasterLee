@@ -5,13 +5,13 @@ public class PptOfLucy extends PptTemplate {
 	@Override
 	public void showTheme() {
 		// TODO Auto-generated method stub
-		System.out.println("ÎÒµÄÖ÷ÌâÊÇÊöÖ°");
+		System.out.println("æˆ‘çš„ä¸»é¢˜æ˜¯è¿°èŒ");
 	}
 
 	@Override
 	public void showAuthorName() {
 		// TODO Auto-generated method stub
-		System.out.println("ÎÒµÄÃû×Ö½ĞÂ¶Î÷");
+		System.out.println("æˆ‘çš„åå­—å«éœ²è¥¿");
 	}
 
 }

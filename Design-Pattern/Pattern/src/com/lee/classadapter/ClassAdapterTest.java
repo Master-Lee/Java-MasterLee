@@ -10,7 +10,7 @@ public class ClassAdapterTest {
 		OldCellPhone myPhone = new OldCellPhone();
 		myPhone.call();
 		myPhone.text();
-		System.out.println("ÊÖ»ú±äÐÎÇ°ºó");
+		System.out.println("æ‰‹æœºå˜å½¢å‰åŽ");
 		CellPhoneTransformer transformedPhone = new CellPhoneTransformer();
 		transformedPhone.call();
 		transformedPhone.text();
@@ -18,18 +18,18 @@ public class ClassAdapterTest {
 	}
 }
 
-//ÀàÊÊÅäÆ÷ºÍ¶ÔÏóÊÊÅäÆ÷µÄÈ¨ºâ
+//ç±»é€‚é…å™¨å’Œå¯¹è±¡é€‚é…å™¨çš„æƒè¡¡
 //
-//¡ñ¡¡¡¡ÀàÊÊÅäÆ÷Ê¹ÓÃ¶ÔÏó¼Ì³ÐµÄ·½Ê½£¬ÊÇ¾²Ì¬µÄ¶¨Òå·½Ê½£»¶ø¶ÔÏóÊÊÅäÆ÷Ê¹ÓÃ¶ÔÏó×éºÏµÄ·½Ê½£¬ÊÇ¶¯Ì¬×éºÏµÄ·½Ê½¡£
+//â—ã€€ã€€ç±»é€‚é…å™¨ä½¿ç”¨å¯¹è±¡ç»§æ‰¿çš„æ–¹å¼ï¼Œæ˜¯é™æ€çš„å®šä¹‰æ–¹å¼ï¼›è€Œå¯¹è±¡é€‚é…å™¨ä½¿ç”¨å¯¹è±¡ç»„åˆçš„æ–¹å¼ï¼Œæ˜¯åŠ¨æ€ç»„åˆçš„æ–¹å¼ã€‚
 //
-//¡ñ¡¡¡¡¶ÔÓÚÀàÊÊÅäÆ÷£¬ÓÉÓÚÊÊÅäÆ÷Ö±½Ó¼Ì³ÐÁËAdaptee£¬Ê¹µÃÊÊÅäÆ÷²»ÄÜºÍAdapteeµÄ×ÓÀàÒ»Æð¹¤×÷£¬ÒòÎª¼Ì³ÐÊÇ¾²Ì¬µÄ¹ØÏµ£¬µ±ÊÊÅäÆ÷¼Ì³ÐÁËAdapteeºó£¬¾Í²»¿ÉÄÜÔÙÈ¥´¦Àí  AdapteeµÄ×ÓÀàÁË¡£
+//â—ã€€ã€€å¯¹äºŽç±»é€‚é…å™¨ï¼Œç”±äºŽé€‚é…å™¨ç›´æŽ¥ç»§æ‰¿äº†Adapteeï¼Œä½¿å¾—é€‚é…å™¨ä¸èƒ½å’ŒAdapteeçš„å­ç±»ä¸€èµ·å·¥ä½œï¼Œå› ä¸ºç»§æ‰¿æ˜¯é™æ€çš„å…³ç³»ï¼Œå½“é€‚é…å™¨ç»§æ‰¿äº†AdapteeåŽï¼Œå°±ä¸å¯èƒ½å†åŽ»å¤„ç†  Adapteeçš„å­ç±»äº†ã€‚
 //
-//¡¡¡¡ ¶ÔÓÚ¶ÔÏóÊÊÅäÆ÷£¬Ò»¸öÊÊÅäÆ÷¿ÉÒÔ°Ñ¶àÖÖ²»Í¬µÄÔ´ÊÊÅäµ½Í¬Ò»¸öÄ¿±ê¡£»»ÑÔÖ®£¬Í¬Ò»¸öÊÊÅäÆ÷¿ÉÒÔ°ÑÔ´ÀàºÍËüµÄ×ÓÀà¶¼ÊÊÅäµ½Ä¿±ê½Ó¿Ú¡£ÒòÎª¶ÔÏóÊÊÅäÆ÷²ÉÓÃµÄÊÇ¶ÔÏó×éºÏµÄ¹ØÏµ£¬Ö»Òª¶ÔÏóÀàÐÍÕýÈ·£¬ÊÇ²»ÊÇ×ÓÀà¶¼ÎÞËùÎ½¡£
+//ã€€ã€€ å¯¹äºŽå¯¹è±¡é€‚é…å™¨ï¼Œä¸€ä¸ªé€‚é…å™¨å¯ä»¥æŠŠå¤šç§ä¸åŒçš„æºé€‚é…åˆ°åŒä¸€ä¸ªç›®æ ‡ã€‚æ¢è¨€ä¹‹ï¼ŒåŒä¸€ä¸ªé€‚é…å™¨å¯ä»¥æŠŠæºç±»å’Œå®ƒçš„å­ç±»éƒ½é€‚é…åˆ°ç›®æ ‡æŽ¥å£ã€‚å› ä¸ºå¯¹è±¡é€‚é…å™¨é‡‡ç”¨çš„æ˜¯å¯¹è±¡ç»„åˆçš„å…³ç³»ï¼Œåªè¦å¯¹è±¡ç±»åž‹æ­£ç¡®ï¼Œæ˜¯ä¸æ˜¯å­ç±»éƒ½æ— æ‰€è°“ã€‚
 //
-//¡ñ¡¡  ¶ÔÓÚÀàÊÊÅäÆ÷£¬ÊÊÅäÆ÷¿ÉÒÔÖØ¶¨ÒåAdapteeµÄ²¿·ÖÐÐÎª£¬Ïàµ±ÓÚ×ÓÀà¸²¸Ç¸¸ÀàµÄ²¿·ÖÊµÏÖ·½·¨¡£
+//â—ã€€  å¯¹äºŽç±»é€‚é…å™¨ï¼Œé€‚é…å™¨å¯ä»¥é‡å®šä¹‰Adapteeçš„éƒ¨åˆ†è¡Œä¸ºï¼Œç›¸å½“äºŽå­ç±»è¦†ç›–çˆ¶ç±»çš„éƒ¨åˆ†å®žçŽ°æ–¹æ³•ã€‚
 //
-//¡¡¡¡ ¶ÔÓÚ¶ÔÏóÊÊÅäÆ÷£¬ÒªÖØ¶¨ÒåAdapteeµÄÐÐÎª±È½ÏÀ§ÄÑ£¬ÕâÖÖÇé¿öÏÂ£¬ÐèÒª¶¨ÒåAdapteeµÄ×ÓÀàÀ´ÊµÏÖÖØ¶¨Òå£¬È»ºóÈÃÊÊÅäÆ÷×éºÏ×ÓÀà¡£ËäÈ»ÖØ¶¨ÒåAdapteeµÄÐÐÎª±È½ÏÀ§ÄÑ£¬µ«ÊÇÏëÒªÔö¼ÓÒ»Ð©ÐÂµÄÐÐÎªÔò·½±ãµÄºÜ£¬¶øÇÒÐÂÔö¼ÓµÄÐÐÎª¿ÉÍ¬Ê±ÊÊÓÃÓÚËùÓÐµÄÔ´¡£
+//ã€€ã€€ å¯¹äºŽå¯¹è±¡é€‚é…å™¨ï¼Œè¦é‡å®šä¹‰Adapteeçš„è¡Œä¸ºæ¯”è¾ƒå›°éš¾ï¼Œè¿™ç§æƒ…å†µä¸‹ï¼Œéœ€è¦å®šä¹‰Adapteeçš„å­ç±»æ¥å®žçŽ°é‡å®šä¹‰ï¼Œç„¶åŽè®©é€‚é…å™¨ç»„åˆå­ç±»ã€‚è™½ç„¶é‡å®šä¹‰Adapteeçš„è¡Œä¸ºæ¯”è¾ƒå›°éš¾ï¼Œä½†æ˜¯æƒ³è¦å¢žåŠ ä¸€äº›æ–°çš„è¡Œä¸ºåˆ™æ–¹ä¾¿çš„å¾ˆï¼Œè€Œä¸”æ–°å¢žåŠ çš„è¡Œä¸ºå¯åŒæ—¶é€‚ç”¨äºŽæ‰€æœ‰çš„æºã€‚
 //
-//¡ñ¡¡¡¡¶ÔÓÚÀàÊÊÅäÆ÷£¬½ö½öÒýÈëÁËÒ»¸ö¶ÔÏó£¬²¢²»ÐèÒª¶îÍâµÄÒýÓÃÀ´¼ä½ÓµÃµ½Adaptee¡£
+//â—ã€€ã€€å¯¹äºŽç±»é€‚é…å™¨ï¼Œä»…ä»…å¼•å…¥äº†ä¸€ä¸ªå¯¹è±¡ï¼Œå¹¶ä¸éœ€è¦é¢å¤–çš„å¼•ç”¨æ¥é—´æŽ¥å¾—åˆ°Adapteeã€‚
 //
-//¡¡¡¡ ¶ÔÓÚ¶ÔÏóÊÊÅäÆ÷£¬ÐèÒª¶îÍâµÄÒýÓÃÀ´¼ä½ÓµÃµ½Adaptee¡£
+//ã€€ã€€ å¯¹äºŽå¯¹è±¡é€‚é…å™¨ï¼Œéœ€è¦é¢å¤–çš„å¼•ç”¨æ¥é—´æŽ¥å¾—åˆ°Adapteeã€‚

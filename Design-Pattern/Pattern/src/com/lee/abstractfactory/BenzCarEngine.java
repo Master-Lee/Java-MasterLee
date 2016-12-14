@@ -3,6 +3,6 @@ package com.lee.abstractfactory;
 public class BenzCarEngine implements ICarEngine {
 	public BenzCarEngine() {
 		// TODO Auto-generated constructor stub
-		System.out.println("奔驰车发动机");
+		System.out.println("濂旈┌杞﹀彂鍔ㄦ満");
 	}
 }

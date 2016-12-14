@@ -11,7 +11,7 @@ public class ObjectAdapterTest {
 		MyOldCellPhone myPhone = new MyOldCellPhone();
 		myPhone.call();
 		myPhone.text();
-		System.out.println("手机变形前后");
+		System.out.println("鎵嬫満鍙樺舰鍓嶅悗");
 		CellPhoneTransformer transformedPhone = new CellPhoneTransformer();
 		transformedPhone.call();
 		transformedPhone.text();

@@ -15,6 +15,6 @@ public class HatDecorator extends ModelDecorator {
 	
 	public void showHat()
 	{
-		System.out.println("ĞãÃ±×Ó");
+		System.out.println("ç§€å¸½å­");
 	}
 }

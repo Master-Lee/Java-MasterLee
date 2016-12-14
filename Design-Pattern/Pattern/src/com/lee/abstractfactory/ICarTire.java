@@ -1,6 +1,6 @@
 package com.lee.abstractfactory;
 
-//Æû³µÂÖÌ¥
+//æ±½è½¦è½®èƒ
 public interface ICarTire {
 
 }

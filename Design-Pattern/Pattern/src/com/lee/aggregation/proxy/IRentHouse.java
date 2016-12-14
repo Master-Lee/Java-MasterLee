@@ -1,9 +1,9 @@
 package com.lee.aggregation.proxy;
 
 public interface IRentHouse {
-	//ÕÒ·¿×Ó
+	//æ‰¾æˆ¿å­
 	public void findHouse();
 	
-	//ÁªÏµ·¿¶«
+	//è”ç³»æˆ¿ä¸œ
 	public void callHouseOwner();
 }

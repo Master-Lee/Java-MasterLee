@@ -4,7 +4,7 @@ public class BmwCar implements ICar {
 
 	public void run() {
 		// TODO Auto-generated method stub
-		System.out.println("±¦Âí³µ¿ª¶¯");
+		System.out.println("å®é©¬è½¦å¼€åŠ¨");
 	}
 
 }

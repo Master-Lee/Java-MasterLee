@@ -10,7 +10,7 @@ public abstract class PptTemplate {
 	
 	public void showBackground()
 	{
-		System.out.println("°×µ×À¶±ß±³¾°");
+		System.out.println("ç™½åº•è“è¾¹èƒŒæ™¯");
 	}
 	
 	public abstract void showTheme();

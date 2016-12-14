@@ -11,16 +11,16 @@ public class DecoratorTest {
 		IModelFashionShow hat = new HatDecorator(model);
 		IModelFashionShow glass = new SunglassesDecorator(model);
 		
-		System.out.println("---ĞãÒÂ·ş---");
+		System.out.println("---ç§€è¡£æœ---");
 		model.modelShow();
 		
-		System.out.println("---ĞãÒÂ·ş¡¢Ã±×Ó---");
+		System.out.println("---ç§€è¡£æœã€å¸½å­---");
 		hat.modelShow();
 		
-		System.out.println("---ĞãÒÂ·ş¡¢ÑÛ¾µ---");
+		System.out.println("---ç§€è¡£æœã€çœ¼é•œ---");
 		glass.modelShow();
 		
-		System.out.println("---ĞãÒÂ·ş¡¢ÑÛ¾µ¡¢Ã±×Ó---");
+		System.out.println("---ç§€è¡£æœã€çœ¼é•œã€å¸½å­---");
 		IModelFashionShow all = new SunglassesDecorator(hat);
 		all.modelShow();
 	}

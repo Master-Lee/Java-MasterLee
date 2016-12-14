@@ -2,7 +2,7 @@ package com.lee.aggregation.proxy;
 
 /**
  * 
- *�ۺϷ�ʽ ʵ�ֵĴ���
+ *聚合方式 实现的代理
  *
  */
 public class AggregationProxyTest {

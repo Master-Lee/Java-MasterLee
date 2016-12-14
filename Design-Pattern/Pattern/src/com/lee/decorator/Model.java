@@ -4,7 +4,7 @@ public class Model implements IModelFashionShow {
 
 	public void modelShow() {
 		// TODO Auto-generated method stub
-		System.out.println("ĞãÒÂ·ş");
+		System.out.println("ç§€è¡£æœ");
 	}
 
 }

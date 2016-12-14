@@ -2,7 +2,7 @@ package com.lee.classadapter;
 
 /**
  * 
- * ÀàÊÊÅäÆ÷
+ * ç±»é€‚é…å™¨
  *
  */
 public class CellPhoneTransformer extends OldCellPhone implements

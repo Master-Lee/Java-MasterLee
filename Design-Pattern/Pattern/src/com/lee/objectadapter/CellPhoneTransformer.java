@@ -3,7 +3,7 @@ package com.lee.objectadapter;
 import com.lee.classadapter.ILatestCellPhone;
 /**
  * 
- * ¶ÔÏóÊÊÅäÆ÷
+ * å¯¹è±¡é€‚é…å™¨
  *
  */
 public class CellPhoneTransformer implements ILatestCellPhone {
