@@ -1,6 +1,0 @@
-package com.lee.strategy;
-
-public interface ICalculate {
-	public boolean isSupport(String calc);
-	public int executeCal(int rNum, int lNum);
-}

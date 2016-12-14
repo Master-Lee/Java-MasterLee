@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-<typeInfo handle="=DesignPattern/src&lt;com.lee.strategy{ICalculate.java[ICalculate" modifiers="513" timestamp="1480867757140"/>
-<typeInfo handle="=DesignPattern/src&lt;com.lee.classadapter{ILatestCellPhone.java[ILatestCellPhone" modifiers="513" timestamp="1480869062346"/>
-<typeInfo handle="=DesignPattern/src&lt;com.lee.objectadapter{MyOldCellPhone.java[MyOldCellPhone" modifiers="1" timestamp="1480869678287"/>
-<typeInfo handle="=DesignPattern/src&lt;com.lee.aggregation.proxy{IRentHouse.java[IRentHouse" modifiers="513" timestamp="1480872059002"/>
-<typeInfo handle="=DesignPattern/src&lt;com.lee.aggregation.proxy{Roomer.java[Roomer" modifiers="1" timestamp="1480872235122"/>
-</typeInfoHistroy>

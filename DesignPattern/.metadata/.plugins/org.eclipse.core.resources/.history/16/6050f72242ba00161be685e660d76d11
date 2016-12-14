@@ -1,9 +1,0 @@
-package com.lee.objectadapter;
-
-public class MyOldCellPhoneSon extends MyOldCellPhone {
-	@Override
-	public void text()
-	{
-		
-	}
-}

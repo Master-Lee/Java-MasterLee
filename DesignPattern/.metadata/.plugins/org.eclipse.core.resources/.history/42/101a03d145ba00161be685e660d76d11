@@ -1,6 +1,0 @@
-package com.lee.aggregation.proxy;
-
-public interface IRentHouse {
-	//Ì¸×â·¿¼ÛÇ®
-	public void bargain();
-}
