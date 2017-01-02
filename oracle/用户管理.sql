@@ -18,6 +18,7 @@ drop user lee
 grant connect to lee
 grant resource to lee        
 grant select on scotttest to lee
+grant all on emp to xiaoming
 
 //收回权限
 revoke select on scotttest from lee
@@ -41,5 +42,11 @@ create profile lock_account(规则名称) limit failed_login_attempts 3 password_loc
 drop profile  lock_account
 alter user scott profile lock_account;
 
+//每隔10天修改登录密码，宽限期为2天
+create pofile myprofile limit password_life_time 10 password_grace_time 2;
+
 //解锁
 alter user scott account unlock;
+
+//口令历史   指定口令可重用时间，即10天后可以重复
+create profile password_history limit password_life_time 10 password_grace_time 2 password_reuse_time
