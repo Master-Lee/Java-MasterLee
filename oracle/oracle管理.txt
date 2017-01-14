@@ -1,0 +1,62 @@
+//数据库（表）的管理、备份、恢复
+	每一个oracle数据库应该至少有一名数据库管理员（dba）。
+	职责：
+	1、安装和升级oracle数据库
+	2、建库，表空间，表，视图索引。。。
+	3、制定并实施备份与恢复计划
+	4、数据库权限管理，调优，故障排除
+	5、高级dba，会编写sql语句，存储过程，触发器，规则，约束，包
+	管理数据库的用户主要是sys和system：
+	主要区别：
+	  1、存储的数据重要性不同
+		sys：所有oracle的数据字典的基表和视图都存放在sys用户中，这些基表和视图对于oracle额
+		运行至关重要，由数据库自己维护，任何用户都不能手动更改。
+		sys用户拥有dba，sysdba，sysoper角色或权限，是oracle权限最高的用户。
+		
+		system:用于存放次一级的内部数据，如oracle的一些特性或工具的管理信息。
+		system用户拥有dba，sysdba角色或系统权限。
+		
+	  2、权限不同
+		sys用户必须以as sysdba或as sysoper形式登录，不能以normal方式登录。
+		
+		system如果正常登录，它其实就是一个普通的dba用户。
+		如果以as sysdba登录，其结果实际上它是作为sys用户登录的。
+		
+	dba角色   数据库管理员
+		show parameter
+	sysdba角色   系统管理员
+	sysoper角色  系统操作员
+	
+	
+	//逻辑备份与恢复
+	使用工具export将数据对象的结构和数据导出到文件
+	逻辑恢复是指当数据库对象被误操作而损坏后使用import利用备份文件把数据对象导入到数据库的过程
+	
+	导出：导出表、导出方案、导出数据库
+	    用exp命令完成，常用选项：
+		userid:  指定导出操作的用户名 口令 连接字符串
+		tables:  用于指定导出操作的表
+		owner:   用于指定执行导出操作的方案
+		full=y:  用于指定执行导出操作的数据库
+		inctype: 用于指定执行导出操作的增量类型
+		rows: 指定执行导出操作是否要导出表中的数据
+		file: 指定导出文件名
+		
+		导出表：
+			D:\app\lenovo\product\11.2.0\dbhome_1\BIN>exp userid=scott/Changeme123@ORCL tables=(emp) file=d:\emp.dmp
+			
+			到oracle目录的bin目录下 D:\app\lenovo\product\11.2.0\dbhome_1\BIN>
+	    导出表结构：
+		    exp userid=scott/Changeme123@ORCL tables=(emp) file=d:\emp3.dmp rows=n
+			exp userid=scott/Changeme123@ORCL tables=(emp) file=d:\emp4.dmp direct=y     //直接导出，direct=y，适合大表速度快
+
+	    导出方案:
+		    exp scott/Changeme123@ORCL owner=scott file=d:\scott.dmp
+	//物理备份  可以在数据库open或关闭状态下进行，但是逻辑备份恢复只能在open状态下进行
+	
+//表空间
+
+//数据字典
+
+第18讲
+
